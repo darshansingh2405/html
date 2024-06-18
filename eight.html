@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        h3,span{
+            color:red;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 style="background-color: blue; color: red; text-align: center">
+      Individual Registration
+    </h1>
+  
+    <form style="background-color: aqua;">
+      <h3>User Particulars</h3>
+      <center><table id="one">
+        <tr>
+          <td><span>*</span>Login id</td>
+          <td><input type="text" id="li" required /></td>
+        </tr>
+        <tr>
+          <td><span>*</span>Password</td>
+          <td><input type="text" id="pd" required /></td>
+        </tr>
+        <tr>
+          <td><span>*</span>Confirm password</td>
+          <td><input type="text" id="cp" required /></td>
+        </tr>
+      </table>
+    </center>
+      <h3>Personal Particulars</h3>
+     <center> <table>
+        <tr>
+          <td><span>*</span>Salutation</td>
+          <td>
+            <select>
+              <optgroup ="salutation"><option>select</option></optgroup>
+            </select>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <span>*</span> Middle name
+        </td>
+        <td>
+          <input type="text" id="mn" required />
+          </td>
+        </tr>
+        <tr>
+          <td><span>*</span>Resident Status</td>
+          <td>
+            <select>
+              <optgroup ="state">
+                <option>Ahmedabad</option>
+                <option>Vadodra</option>
+              </optgroup>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><span>*</span>Email Id</td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+      </table></center>
+      <div id="right">
+       <center> <table>
+        <tr><td><span>*</span>First name</td><td><input type="text" id="fn" required /></td>
+        <tr><td><span>*</span>Last name </td><td><input type="text" id="ln" required /></td></tr>
+        <tr>
+         <td><span>*</span>Country</td>
+        <td>  <select>
+            <optgroup ="state">
+              <option>Gujarat</option>
+              <option>Rajasthan</option>
+            </optgroup>
+          </select>
+        </td></tr>
+        <tr><td><span>*</span>Mobile number</td>
+       <td> <input type="text" id="mn" required /></td></tr>
+       </tr>
+       </table></center>
+      </div>
+      <h3>Account Particulars</h3>
+      <center><table>
+        <tr>
+          <td><span>*</span>15 digit account no</td>
+          <td><input type="text" id="ac" /></td>
+        </tr>
+        <tr>
+          <td><span>*</span>Fund transfer</td>
+          <td>  <select>
+            <optgroup ="bank">
+              <option>bob</option>
+              <option>boi</option>
+            </optgroup>
+          </select>
+          </td>
+          </tr>
+          <tr>
+          <td><span>*</span>nick name</td>
+          <td><input type="text" id="nn"></td>
+        </tr>
+      </table></center>
+      <h3>Declaration</h3>
+      <p>I have read ,understood and hereby agree to terms and condition in respect of all products and channels</p>
+<center><input type="submit" value="submit"><input type="reset" value="reset"></center>
+    </form>
+
+  </body>
+</html>
